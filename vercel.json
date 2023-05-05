@@ -1,0 +1,10 @@
+{
+   "version": 2,
+   "name": "weather-app",
+   "builds": [
+      { "src": "main.html" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/main.html" }
+   ]
+}
